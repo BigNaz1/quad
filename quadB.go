@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func QuadB(x int, y int) int {
+func QuadB(y int, x int) int {
 	for h := 1; h <= x; h++ {
 		for w := 1; w <= y; w++ {
 			if h == 1 || h == x {
