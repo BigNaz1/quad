@@ -11,9 +11,9 @@ func QuadD(x int, y int) int {
 				} else if w == x && h == y && h != 1 {
 					fmt.Print("C")
 				} else if w == x && h == 1 {
-					fmt.Print("A")
-				} else if w == 1 && h == y {
 					fmt.Print("C")
+				} else if w == 1 && h == y {
+					fmt.Print("A")
 				} else {
 					fmt.Print("B")
 				}
